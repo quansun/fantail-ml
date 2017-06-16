@@ -12,6 +12,7 @@
  *   You should have received a copy of the GNU General Public License
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
 package fantail.examples;
 
 import fantail.algorithms.*;
@@ -54,34 +55,29 @@ public class LabelRankingAlgorithmsMultiRunEvalExample01 {
         eval = new MultiRunEvaluation(data);
         eval.multiRunEvaluate(ranker, numRuns, trainsetRatio, randSeed);
         printResult(strFormat, ranker, eval);
-        //
-        //ranker = new LabelRankingTree();
-        //eval = new MultiRunEvaluation(data);
-        //eval.multiRunEvaluate(ranker, numRuns, trainsetRatio, randSeed);
-        //printResult(strFormat, ranker, eval);
-        //
+        
         ranker = new RankingWithBinaryPCT();
         eval = new MultiRunEvaluation(data);
         eval.multiRunEvaluate(ranker, numRuns, trainsetRatio, randSeed);
         printResult(strFormat, ranker, eval);
-        //
+        
         ranker = new RankingByPairwiseComparison();
         eval = new MultiRunEvaluation(data);
         eval.multiRunEvaluate(ranker, numRuns, trainsetRatio, randSeed);
         printResult(strFormat, ranker, eval);
-        //
+        
         ranker = new RankingWithkNN();
         eval = new MultiRunEvaluation(data);
         eval.multiRunEvaluate(ranker, numRuns, trainsetRatio, randSeed);
         printResult(strFormat, ranker, eval);
-        //
+        
         ranker = new BinaryART();
         ((BinaryART) ranker).setK(9999);
         ((BinaryART) ranker).setMiniLeaf(1);
         eval = new MultiRunEvaluation(data);
         eval.multiRunEvaluate(ranker, numRuns, trainsetRatio, randSeed);
         printResult(strFormat, ranker, eval);
-        //
+        
         ranker = new ARTForests();
         ((ARTForests) ranker).setNumIterations(50);
         ((ARTForests) ranker).setK(0);

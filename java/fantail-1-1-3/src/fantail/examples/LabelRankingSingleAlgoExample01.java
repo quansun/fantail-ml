@@ -44,15 +44,14 @@ public class LabelRankingSingleAlgoExample01 {
         AbstractRanker ranker;
         MultiRunEvaluation eval;
 
-        //
         String strFormat = "%-30s %-30s %-30s";
         System.out.println(String.format(strFormat, "<Algorithms>", "<Kendall>", "<SpearmanCC>"));
-        //
+        
         //ranker = new LabelRankingTree();
         //eval = new MultiRunEvaluation(data);
         //eval.multiRunEvaluate(ranker, numRuns, trainsetRatio, randSeed);
         //printResult(strFormat, ranker, eval);
-        //
+        
     }
 
     private static void printResult(String strFormat, AbstractRanker ranker, MultiRunEvaluation eval) {

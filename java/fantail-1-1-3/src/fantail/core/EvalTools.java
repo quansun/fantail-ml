@@ -23,9 +23,8 @@ public class EvalTools {
     public static double computeScore(double[] actual, double[] pred) {
         
         //return computeKendallTau(actual, pred);
-        return computeSpearmanCC(actual, pred);
-        
         //return computeNDCGAtPosition(actual, pred, 3);
+        return computeSpearmanCC(actual, pred);
     }
     
     public static double computeKendallTau(double[] actual, double[] pred) {

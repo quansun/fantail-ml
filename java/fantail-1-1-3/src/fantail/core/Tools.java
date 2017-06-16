@@ -12,6 +12,7 @@
  *   You should have received a copy of the GNU General Public License
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
 package fantail.core;
 
 import java.io.File;
@@ -77,9 +78,6 @@ public class Tools {
     public static double[] doubleArrayToRanking(double[] values) {
         Rank rank = new Rank(values, 0.001);
         double ranks[] = rank.getRanks();
-        //for (int i = 0; i < ranks.length; i++) {
-            //ranks[i] += 1;
-        //}
         return ranks;
     }
 

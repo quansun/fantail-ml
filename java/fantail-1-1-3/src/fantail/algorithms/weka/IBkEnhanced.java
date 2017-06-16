@@ -14,7 +14,6 @@
  */
 package fantail.algorithms.weka;
 
-import weka.classifiers.rules.ZeroR;
 import weka.core.Capabilities;
 import weka.core.Instances;
 

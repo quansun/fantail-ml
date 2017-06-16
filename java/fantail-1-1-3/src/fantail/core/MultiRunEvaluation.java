@@ -12,6 +12,7 @@
  *   You should have received a copy of the GNU General Public License
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
 package fantail.core;
 
 import fantail.algorithms.AbstractRanker;
@@ -57,13 +58,12 @@ public class MultiRunEvaluation {
         if (numRuns <= 1) {
             throw new Exception("numRuns must be greater than 0.");
         }
+        
         //m_NumRuns = numRuns;
         m_Rand = new Random(randSeed);
         int numTrainInstances = (int) (ratio * m_Data.numInstances());
-        //
         m_ScoreKendall = new double[numRuns];
         m_ScoreSpearmanCC = new double[numRuns];
-        //
         for (int i = 0; i < numRuns; i++) {
             m_Data.randomize(m_Rand);
             Instances train = new Instances(m_Data, 0);
