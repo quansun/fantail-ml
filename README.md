@@ -50,6 +50,8 @@ If you want to refer to Fantail in a publication, please cite the following pape
 
 Quan Sun and Bernhard Pfahringer. Pairwise Meta-Rules for Better Meta-Learning-Based Algorithm Ranking. Machine Learning, 93(1):141-161, Springer US, 2013, DOI: 10.1007/s10994-013-5387-y
 
+http://quansun.com/pubs/qs-mlj13.pdf
+
 Many TODOs, so please send me an Email if you would like to contribute to Fantail!
 
 Quan Sun quan.sun.nz@gmail.com 
