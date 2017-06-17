@@ -49,3 +49,7 @@ A collection of 26 label ranking datasets can be downloaded from /datasets
 If you want to refer to Fantail in a publication, please cite the following paper: 
 
 Quan Sun and Bernhard Pfahringer. Pairwise Meta-Rules for Better Meta-Learning-Based Algorithm Ranking. Machine Learning, 93(1):141-161, Springer US, 2013, DOI: 10.1007/s10994-013-5387-y
+
+Many TODOs, so please send me an Email if you would like to contribute to Fantail!
+Quan Sun quan.sun.nz@gmail.com 
+10/2013 
