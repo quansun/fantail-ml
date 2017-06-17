@@ -10,7 +10,7 @@ See fantail.examples.LabelRankingSingleAlgoExample01.java for an example
 
 ### Benchmark Datasets
 
-iris_.arff (an example dataset showing the data format used by Fantail) 
+/datasets/iris_.arff (an example dataset showing the data format used by Fantail) 
 
 A collection of 26 label ranking datasets can be downloaded from /datasets
 
@@ -22,7 +22,7 @@ A collection of 26 label ranking datasets can be downloaded from /datasets
 * RankingByPairwiseComparison
 * BinaryART (approximate ranking tree)
 * ARTForests (approximate ranking tree forests)
-* Label Ranking Tree (WEKA-LR's LRT)
+* Label Ranking Tree (WEKA-LR's LRT, note: this algorithm has been removed from version 1-1-3)
 * RankingViaRegression (multiple single-target regression)
 
 ### Evaluation Metrics
