@@ -7,40 +7,45 @@ A key difference between Fantail and another popular preference learning package
 ### Usage
 
 See fantail.examples.LabelRankingSingleAlgoExample01.java for an example
-Benchmark Datasets
+
+### Benchmark Datasets
 
 iris_.arff (an example dataset showing the data format used by Fantail) 
-A collection of 26 label ranking datasets can be downloaded from here/
-Algorithms (8)
 
-AverageRanking (a baseline ranker)
-RankingWithkNN (based on a nearest neighbour algorithm)
-RankingWithBinaryPCT (based on predictive clustering tree for ranking)
-RankingByPairwiseComparison
-BinaryART (approximate ranking tree)
-ARTForests (approximate ranking tree forests)
-Label Ranking Tree (WEKA-LR's LRT)
-RankingViaRegression (multiple single-target regression)
-Curds and Whey Multivariate Responses [TODO]
-Constraint Classification [TODO]
-Bagging [TODO]
-Boosting [TODO]
-Filters
+A collection of 26 label ranking datasets can be downloaded from /datasets
 
-MetaRule Generator [TODO]
-Evaluation Metrics
+### Algorithms (8)
 
-Spearman's rank correlation coefficient
-Kendall's Tau
-MAE
-RMSE
-NDCG@X [TODO]
-GUI/Visualisation
+-AverageRanking (a baseline ranker)
+-RankingWithkNN (based on a nearest neighbour algorithm)
+-RankingWithBinaryPCT (based on predictive clustering tree for ranking)
+-RankingByPairwiseComparison
+-BinaryART (approximate ranking tree)
+-ARTForests (approximate ranking tree forests)
+-abel Ranking Tree (WEKA-LR's LRT)
+-RankingViaRegression (multiple single-target regression)
 
-2D/3D permutation polytopes for rank data [TODO]
-Experimenter [TODO]
+### Evaluation Metrics
+
+-Spearman's rank correlation coefficient
+-Kendall's Tau
+-MAE
+-RMSE
+
+### TODOs
+
+-Curds and Whey Multivariate Responses [TODO]
+-Constraint Classification [TODO]
+-Bagging [TODO]
+-Boosting [TODO]
+-MetaRule Generator [TODO]
+-NDCG@X [TODO]
+-GUI/Visualisation
+-2D/3D permutation polytopes for rank data [TODO]
+-Experimenter [TODO]
 
 ### Citing Fantail
 
 If you want to refer to Fantail in a publication, please cite the following paper: 
+
 Quan Sun and Bernhard Pfahringer. Pairwise Meta-Rules for Better Meta-Learning-Based Algorithm Ranking. Machine Learning, 93(1):141-161, Springer US, 2013, DOI: 10.1007/s10994-013-5387-y
