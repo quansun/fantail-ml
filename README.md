@@ -16,33 +16,33 @@ A collection of 26 label ranking datasets can be downloaded from /datasets
 
 ### Algorithms (8)
 
--AverageRanking (a baseline ranker)
--RankingWithkNN (based on a nearest neighbour algorithm)
--RankingWithBinaryPCT (based on predictive clustering tree for ranking)
--RankingByPairwiseComparison
--BinaryART (approximate ranking tree)
--ARTForests (approximate ranking tree forests)
--abel Ranking Tree (WEKA-LR's LRT)
--RankingViaRegression (multiple single-target regression)
+* AverageRanking (a baseline ranker)
+* RankingWithkNN (based on a nearest neighbour algorithm)
+* RankingWithBinaryPCT (based on predictive clustering tree for ranking)
+* RankingByPairwiseComparison
+* BinaryART (approximate ranking tree)
+* ARTForests (approximate ranking tree forests)
+* Label Ranking Tree (WEKA-LR's LRT)
+* RankingViaRegression (multiple single-target regression)
 
 ### Evaluation Metrics
 
--Spearman's rank correlation coefficient
--Kendall's Tau
--MAE
--RMSE
+* Spearman's rank correlation coefficient
+* Kendall's Tau
+* MAE
+* RMSE
 
 ### TODOs
 
--Curds and Whey Multivariate Responses [TODO]
--Constraint Classification [TODO]
--Bagging [TODO]
--Boosting [TODO]
--MetaRule Generator [TODO]
--NDCG@X [TODO]
--GUI/Visualisation
--2D/3D permutation polytopes for rank data [TODO]
--Experimenter [TODO]
+* Curds and Whey Multivariate Responses [TODO]
+* Constraint Classification [TODO]
+* Bagging [TODO]
+* Boosting [TODO]
+* MetaRule Generator [TODO]
+* NDCG@X [TODO]
+* GUI/Visualisation
+* 2D/3D permutation polytopes for rank data [TODO]
+* Experimenter [TODO]
 
 ### Citing Fantail
 
