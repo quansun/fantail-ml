@@ -1,3 +1,7 @@
+### Github
+
+Relocated from sourceforge.net/projects/fantailmlkit/
+
 ### Description
 
 Fantail is a collection of machine learning algorithms for ranking prediction, multi-target regression, label ranking and metalearning related data mining tasks. The algorithms can be called from your own Java code. It is also well-suited for developing new algorithms. Fantail is a multi-target learning extension to WEKA, and is at the early development stage. New algorithms and tools will be added to the library gradually.
