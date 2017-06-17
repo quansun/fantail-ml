@@ -32,17 +32,17 @@ A collection of 26 label ranking datasets can be downloaded from /datasets
 * MAE
 * RMSE
 
-### TODOs
+### TODOs (major features)
 
-* Curds and Whey Multivariate Responses [TODO]
-* Constraint Classification [TODO]
-* Bagging [TODO]
-* Boosting [TODO]
-* MetaRule Generator [TODO]
-* NDCG@X [TODO]
+* Curds and Whey Multivariate Responses
+* Constraint Classification
+* Bagging
+* Boosting
+* MetaRule Generator
+* NDCG@X
 * GUI/Visualisation
-* 2D/3D permutation polytopes for rank data [TODO]
-* Experimenter [TODO]
+* 2D/3D permutation polytopes for rank data
+* Experimenter
 
 ### Citing Fantail
 
