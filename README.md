@@ -6,7 +6,7 @@ A key difference between Fantail and another popular preference learning package
 
 ### Usage
 
-See fantail.examples.LabelRankingSingleAlgoExample01.java for an example
+See https://github.com/quansun/fantail-ml/blob/master/java/fantail-1-1-3/src/fantail/examples/LabelRankingSingleAlgoExample01.java for an example
 
 ### Benchmark Datasets
 
